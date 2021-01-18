@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noten Rechner</title>
+</head>
+<body>
+    <form id="Post">
+        <h1>Notenrechner</h1>
+        <h3>Nach der neuen Noten Verordnung</h3>
+        <h4>Bitte die Noten in die dafür vorgebenden Felder eintragen!</h4>
+        <input type="text" class="KA" onfocus="onFocus()" autocomplete="off" id="KA1" placeholder="Klassenarbeit 1">
+        <input type="text" class="KA" onfocus="onFocus()" autocomplete="off" id="KA2" placeholder="Klassenarbeit 2">
+        <input type="text" class="KA" onfocus="onFocus()" autocomplete="off" id="KA3" placeholder="Klassenarbeit 3">
+        <input type="text" class="KA" onfocus="onFocus()" autocomplete="off" id="KA4" placeholder="Klassenarbeit 4"><br> 
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK1" placeholder="1. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK2" placeholder="2. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK3" placeholder="3. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK4" placeholder="4. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK5" placeholder="5. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK6" placeholder="6. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK7" placeholder="7. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK8" placeholder="8. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK9" placeholder="9. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK10" placeholder="10. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK11" placeholder="11. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK12" placeholder="12. normale Note">
+        <input type="text" class="Note" onfocus="onFocus()" autocomplete="off" id="LK13" placeholder="13. normale Note">
+        <button type="button" onclick="onClick();">Ausrechnen</button>
+        <button type="reset">Lösche alle Eingaben</button>
+    </form>
+    <h3 id="ErrorH3"></h3>
+    <h5 id="NoteH5"></h5>
+
+    <div id="Disclaimer">Es werden keine Noten gespeichert!</div>
+    <div id="Credits">Bei Fehlern und Verbesserungsvorschlägen bitte eine Email an: <a href="mailto:soundcat@posteo.de">soundcat@posteo.de</a> oder im <a href=""> Github Repository </a> eintragen.</div>
+</body>
+</html>
