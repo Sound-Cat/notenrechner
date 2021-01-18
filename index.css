@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    color: white;
+    background-color: #152d32;
+    font-family: 'Poppins', sans-serif;
+}
+#Post h1{
+    text-align: center;
+}
+#Post h1::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 10px;
+    border-bottom: 2px solid #87ef87;
+}
+#Post h3{
+    text-align: center;
+}
+#Post h4{
+    text-align: center;
+}
+#Post input[type = "text"]{ 
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #87ef87;
+    padding: 14px 10px ;
+    width: 200px;
+    outline: none;
+    color:  white;
+    border-radius: 22px;
+    transition: 0.25s;
+    display: block;
+}
+#Post input[type = "text"]:focus, #Post input[type = "password"]:focus{ 
+    width: 280px;
+    background-color: #3F703F;
+}
+#Post button{
+    border-radius: 0%;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #87ef87;
+    padding: 14px 40px ;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#Post button:hover{
+    background-color: #87ef87;
+    color: black;
+}
+#ErrorNode{
+    text-align: center;
+}
+#NoteNode{
+    text-align: center;
+    font-size: 50px;
+}
