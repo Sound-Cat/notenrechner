@@ -10,7 +10,7 @@ function onFocus(){
 }
 
 function onClick() {
-    var Note = document.getElementsByClassName("Note")
+    var Noteungerundet = document.getElementsByClassName("Note")
     var KA1 = document.getElementById('KA1').value
     var KA2 = document.getElementById('KA2').value
     var KA3 = document.getElementById('KA3').value
@@ -100,8 +100,10 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13!=""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note) + (LK13Note)) /13
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2)
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -110,8 +112,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             } else
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note)) /12;
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -120,8 +123,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note)) /11
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -130,8 +134,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note)) /10
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -140,8 +145,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note)) /9
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -150,8 +156,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note)) /8
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -160,8 +167,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note)) /7
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -170,8 +178,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note)) /6
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -180,8 +189,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note)) /5
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -190,8 +200,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note)) /4
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -200,8 +211,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note)) /3
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -210,8 +222,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note)) /2
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -220,8 +233,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = LK1Note
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -230,8 +244,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1=="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = 0
-                var Note = LKNote
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = LKNote
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -245,8 +260,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13!=""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note) + (LK13Note)) /13
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -255,8 +271,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             } else
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note)) /12;
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -265,8 +282,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note)) /11
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -275,8 +293,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note)) /10
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -285,8 +304,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note)) /9
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -295,8 +315,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note)) /8
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -305,8 +326,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note)) /7
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -315,8 +337,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note)) /6
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -325,8 +348,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note)) /5
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -335,8 +359,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note)) /4
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -345,8 +370,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note)) /3
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -355,8 +381,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note)) /2
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -365,8 +392,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = LK1Note
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -375,8 +403,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1=="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = 0
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -390,8 +419,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13!=""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note) + (LK13Note)) /13
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -400,8 +430,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             } else
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note)) /12;
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -410,8 +441,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note)) /11
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -420,8 +452,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note)) /10
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -430,8 +463,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note)) /9
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -440,8 +474,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note)) /8
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -450,8 +485,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note)) /7
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -460,8 +496,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note)) /6
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -470,8 +507,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note)) /5
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -480,8 +518,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note)) /4
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -490,8 +529,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note)) /3
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -500,8 +540,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note)) /2
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -510,8 +551,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = LK1Note
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -520,8 +562,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1=="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = 0
-                var Note = Math.round(((KANote)*0.4)+((LKNote)*0.6))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.4)+((LKNote)*0.6)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -534,8 +577,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
 
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13!=""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note) + (LK13Note)) /13
-                var Note = Math.round(((KANote)*0.25)+((LKNote)*0.75))
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)*0.25)+((LKNote)*0.75)
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -544,8 +588,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             } else
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note)) /12;
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -554,8 +599,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note)) /11
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -564,8 +610,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note)) /10
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -574,8 +621,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note)) /9
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -584,8 +632,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note)) /8
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -594,8 +643,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note)) /7
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -604,8 +654,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note)) /6
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -614,8 +665,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note)) /5
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -624,8 +676,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note)) /4
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -634,8 +687,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note)) /3
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -644,8 +698,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note)) /2
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -654,8 +709,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = LK1Note
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -664,8 +720,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1=="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = 0
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -678,8 +735,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
 
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13!=""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note) + (LK13Note)) /13
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -688,8 +746,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             } else
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12!=""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note) + (LK12Note)) /12;
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -698,8 +757,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11!=""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note) + (LK11Note)) /11
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -708,8 +768,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10!=""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note) + (LK10Note)) /10
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -718,8 +779,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9!=""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note) + (LK9Note)) /9
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -728,8 +790,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8!=""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note) + (LK8Note)) /8
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -738,8 +801,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7!=""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note) + (LK7Note)) /7
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -748,8 +812,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6!=""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note) + (LK6Note)) /6
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -758,8 +823,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5!=""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note) + (LK5Note)) /5
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -768,8 +834,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4!=""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note) + (LK4Note)) /4
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -778,8 +845,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3!="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note) + (LK3Note)) /3
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -788,8 +856,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2!="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = ((LK1Note) + (LK2Note)) /2
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -798,8 +867,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1!="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = LK1Note
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
@@ -808,8 +878,9 @@ if(KA1Note < 1 || KA1Note > 6 || KA2Note < 1 || KA2Note > 6 || KA3Note < 1 || KA
             }
             if(LK1=="" && LK2=="" && LK3=="" && LK4==""&& LK5==""&& LK6==""&& LK7==""&& LK8==""&& LK9==""&& LK10==""&& LK11==""&& LK12==""&& LK13==""){
                 var LKNote = 0
-                var Note = Math.round(((KANote)+(LKNote))/2)
-                var Notenode = document.createElement('h4') 
+                var Noteungerundet = ((KANote)+(LKNote))/2
+                var Notenode = document.createElement('h4')
+var Note = Noteungerundet.toFixed(2) 
                 var Notetextnode = document.createTextNode(`Durchschnitt: ${Note}`) 
                 Notenode.appendChild(Notetextnode)
                 var currentDiv = document.getElementById("NoteH5");
