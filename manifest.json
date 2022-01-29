@@ -36,10 +36,10 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/",
+    "start_url": "/notenrechner",
     "background_color": "#152d32",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/scope",
     "theme_color": "#152d32",
     "description": "Ein Rechner um sich selber seine Noten auszurechnen, nach der neuen Notenverordnung in Mecklenburg-Vorpommern! Von Schüler für Lehrer"
   }
