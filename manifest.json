@@ -2,36 +2,36 @@
     "short_name": "Notenrechner",
     "icons": [
       {
-        "src": "/images/logox48.png",
+        "src": "images/logox48.png",
         "type": "image/png",
         "sizes": "48x48"
       },
       {
-        "src": "/images/logox72.png",
+        "src": "images/logox72.png",
         "type": "image/png",
         "sizes": "72x72"
       },
       {
-        "src": "/images/logox96.png",
+        "src": "images/logox96.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "/images/logox128.png",
+        "src": "images/logox128.png",
         "type": "image/png",
         "sizes": "128x128"
       },
       {
-        "src": "/images/logox192.png",
+        "src": "images/logox192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/images/logox384.png",
+        "src": "images/logox384.png",
         "type": "image/png",
         "sizes": "384x384"
       },{
-        "src": "/images/logox512.png",
+        "src": "images/logox512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
