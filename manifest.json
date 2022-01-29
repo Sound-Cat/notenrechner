@@ -1,0 +1,45 @@
+{
+    "short_name": "Notenrechner",
+    "icons": [
+      {
+        "src": "/images/logox48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/images/logox72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/images/logox96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/images/logox128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/images/logox192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/logox384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },{
+        "src": "/images/logox512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#152d32",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#152d32",
+    "description": "Ein Rechner um sich selber seine Noten auszurechnen, nach der neuen Notenverordnung in Mecklenburg-Vorpommern! Von Schüler für Lehrer"
+  }

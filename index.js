@@ -1,3 +1,10 @@
+window.addEventListener("load", () => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+});
+
+
 function check(note){
     if(note != ""){
         if(isNaN(note) == false){
