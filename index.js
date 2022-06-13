@@ -47,7 +47,7 @@ function Rechnung(KA, Normal){
         var n = KA[i]
         KAAddiert += n
     }
-    var KAready = NormalAddiert / Normal.length
+    var KAready = KAAddiert / Normal.length
     var NormalReady = NormalAddiert / Normal.length
     
     if(KA.length == 0){Gesamt = NormalReady}
